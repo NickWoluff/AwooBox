@@ -1,0 +1,46 @@
+# Gradle、Kotlin 与 Android 构建缓存
+.gradle/
+.kotlin/
+.socket-tmp/
+**/build/
+.externalNativeBuild/
+.cxx/
+
+# 本机 SDK 路径与 IDE 配置
+local.properties
+.idea/
+*.iml
+.vscode/
+
+# 安装包、签名密钥与本地凭据
+*.apk
+*.aab
+*.apks
+*.idsig
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+key.properties
+keystore.properties
+signing.properties
+.env
+.env.*
+!.env.example
+
+# 本地调试资料：截图、录屏、UI 转储与临时补丁
+/work/
+/.tmp-*
+captures/
+*.log
+*.hprof
+
+# 系统临时文件
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
