@@ -92,12 +92,14 @@ app/build/outputs/apk/debug/AwooBox-v1.1.0-debug.apk
 
 Release 构建启用了代码与资源压缩，工程尚未配置发布签名；发布前需自行配置签名。签名密钥、本机配置、构建产物及调试截图等已纳入 `.gitignore`。
 
+本地截图、录屏、UI 转储和临时补丁统一存放在 `tmp/` 目录，不提交到仓库。
+
 ## 💬 交流与反馈
 
 使用时遇到问题或有功能建议，欢迎提交至本仓库的 [Issues](../../issues)。反馈时请附上设备型号、系统版本、应用版本、所用功能，以及 Shizuku 的运行身份或 Root 授权状态。
 
 > 加入 **嗷呜系列官方 QQ 交流群**：`暂无`
 
-同系列应用：[🐾 嗷呜计算器](https://github.com/NickWoluff/WearCalculator) · [🐾 嗷呜文件](https://github.com/NickWoluff/WearFiles)
+嗷呜穿戴系列应用：[🐾 嗷呜计算器](https://github.com/NickWoluff/WearCalculator) · [🐾 嗷呜文件](https://github.com/NickWoluff/WearFiles)
 
 © 2026 Nick Woluff. All Rights Reserved.
